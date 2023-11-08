@@ -29,12 +29,12 @@ Programmiere eine einfache Todo-Liste. Alle Aufgaben unter Punkt 3. dürfen auss
 
 3. **Javascript**
 - Nutze in deiner JS-Datei den Strict-Mode
-- Manipuliere die Headline mithilfe eines [Template Strings](https://wiki.selfhtml.org/wiki/JavaScript/Objekte/String/template-literal) so, dass dort "Meine Todos" steht
+- Deklariere eine Variable `vorname` und weise ihr deinen Vornamen als Wert zu.
+- Setze mithilfe eines [Template Strings](https://wiki.selfhtml.org/wiki/JavaScript/Objekte/String/template-literal) die Variable `vorname` ein: "Todos von (vorname)"
 - Das zweite Listenelement soll durch hinzufügen einer CSS-Klasse `.done` mithilfe von JS durchgestrichen werden.
 - Erstelle ein neues `<li>`-Element. Gib dem neuen Listenelement einen beliebigen Textinhalt. Füge das Listenelement am Ende der Liste hinzu.
 - Lösche das erste Element `<li>Einkaufen</li>`
 - Verändere die Hintergrundfarbe dieses neuen elements auf `red` (Hinweis: [Style-Objekt](https://wiki.selfhtml.org/wiki/JavaScript/Tutorials/JavaScript_und_CSS#Das_style-Objekt_als_Schnittstelle_zu_Inline-Styles))
-- Erstelle ein neues
 
 ### Hilfreiche Links
 - [DOM-Manipulation](https://wiki.selfhtml.org/wiki/JavaScript/DOM#DOM-Manipulation)

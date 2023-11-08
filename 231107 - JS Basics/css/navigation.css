@@ -1,0 +1,54 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url(https://picsum.photos/1200/750);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-attachment: fixed; */
+
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  background-color: orangered;
+  background-position: top right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+
+  clip-path: circle(30px at calc(100% - 3.5rem) 2.5rem);
+
+  transition: all ease-in-out .4s;
+}
+
+.menu.open {
+  clip-path: circle(1500px at calc(100% - 3.5rem) 2.5rem);
+}
+
+.menu__button {
+  position: absolute;
+  top: 0.35rem;
+  right: 1.25rem;
+  text-align: center;
+  padding: 1rem;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  border: none;
+  background: rgb(0, 186, 255);
+  color: white;
+  cursor: pointer;
+}

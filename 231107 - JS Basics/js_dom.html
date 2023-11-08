@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Basics</title>
+  <style>
+    .warning {
+      font-weight: 700;
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  
+  <h1>JS DOM-Manipulation</h1>
+  <p>Lorem ipsum dolor sit.</p>
+
+  <!-- ul>li{Listenelement $}*4 -->
+  <ul>
+    <li>Listenelement 1</li>
+    <li>Listenelement 2</li>
+    <li>Listenelement 3</li>
+    <li>Listenelement 4</li>
+  </ul>
+
+  <script>
+
+    // Ersts Listenelement auszuwählen
+    const firstLi = document.querySelector('li');
+
+    // Inhalt des ersten Elements(li) manipulieren
+    firstLi.textContent = 'Ich wurde manipuliert';
+
+    // Drittes Listenelement(li) der Liste(ul) auszuwählen
+    const thirdLi = document.querySelector('ul').children[2];
+
+    // Klasse .warning an drittes Listenelement(li)
+    thirdLi.classList.add('warning');
+
+    // Ausgabe des dritten Listenelements(li) auf der Konsole
+    console.log(thirdLi);
+    
+    // const allLi = document.querySelectorAll('li');
+
+    console.log(allLi);
+
+    // Standardschleife
+    let durchgang = 1;
+    for(li of allLi)
+    {
+      li.classList.add('warning');
+      console.log('Durchgang:',durchgang);
+      
+      const headline = document.createElement('h2');
+      headline.textContent = `Ich bin die ${durchgang}. H2!`;
+      document.body.appendChild(headline);
+
+      durchgang++; // durchgang = durchgang + 1;
+    }
+
+  </script>
+  
+</body>
+</html>

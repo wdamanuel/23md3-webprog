@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Dialog</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/water.css">
+
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+
+    body {
+      background-image: url(https://picsum.photos/1200/750);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+    }
+
+    #myDialog {
+      width: min(80%, 600px);
+    }
+
+    #myDialog::backdrop {
+      /* background-color: darkorange; */
+    }
+
+  </style>
+
+</head>
+<body>
+  
+<h1>Dialog</h1>
+
+<dialog id="myDialog">
+  <h2>Ich bin ein Dialog</h2>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur vero sint illum cupiditate. Recusandae eius repudiandae hic vero praesentium, commodi ea quis aliquam magni assumenda, unde blanditiis reiciendis non deleniti suscipit eaque est possimus sunt illo modi velit odio ipsum!</p>
+
+  <hr>
+
+  <button onclick="closeDialog()">Dialog schließen</button>
+
+</dialog>
+
+<button onclick="showDialog()">Dialog öffnen</button>
+
+<script>
+
+  const dialog = document.getElementById("myDialog");
+  
+  function showDialog() {
+    // dialog.show();
+    dialog.showModal();
+  }
+  
+  function closeDialog() {
+    dialog.close();
+  }
+
+</script>
+
+</body>
+</html>

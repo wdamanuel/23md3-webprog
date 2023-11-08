@@ -1,3 +1,5 @@
+'use strict'; // Strict Mode aktivieren
+
 // Ausgabe in der Browser-Konsole
 console.log(document.querySelector('h1'));
 

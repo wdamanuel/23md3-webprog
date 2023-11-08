@@ -1,0 +1,48 @@
+# Hausübung
+
+## Vorbereitung
+
+1. Erstelle einen Ordner `231108_hue`
+2. Wechsle in den Ordner und erstelle die folgenden Dateien:
+- `index.html`
+- `js/script.js`
+- `css/style.css`
+
+## Aufgabe
+
+Programmiere eine einfache Todo-Liste. Alle Aufgaben unter Punkt 3. dürfen ausschließlich mithilfe von JS erledigt werden.
+
+1. **HTML**
+- Erstelle eine HTML-Grundstruktur in der Datei `index.html`
+- Binde die externen Files `js/script.js` und `css/style.css` ein.
+- Erstelle eine Headline `<h1>Todos</h1>`
+- Erstelle eine ungeordnete Liste mit folgenden Elementen:
+  - Einkaufen
+  - Javascript lernen
+  - Rasen mähen
+  - Müll entsorgen
+  - E-Mails beantworten
+
+2. **CSS**
+- Formatiere die Todo-Liste nach eigenem Ermessen
+- Die Aufgabenliste soll nach einer handgeschriebenen Aufgabenliste aussehen
+
+3. **Javascript**
+- Nutze in deiner JS-Datei den Strict-Mode
+- Manipuliere die Headline mithilfe eines [Template Strings](https://wiki.selfhtml.org/wiki/JavaScript/Objekte/String/template-literal) so, dass dort "Meine Todos" steht
+- Das zweite Listenelement soll durch hinzufügen einer CSS-Klasse `.done` mithilfe von JS durchgestrichen werden.
+- Erstelle ein neues `<li>`-Element. Gib dem neuen Listenelement einen beliebigen Textinhalt. Füge das Listenelement am Ende der Liste hinzu.
+- Lösche das erste Element `<li>Einkaufen</li>`
+- Verändere die Hintergrundfarbe dieses neuen elements auf `red` (Hinweis: [Style-Objekt](https://wiki.selfhtml.org/wiki/JavaScript/Tutorials/JavaScript_und_CSS#Das_style-Objekt_als_Schnittstelle_zu_Inline-Styles))
+- Erstelle ein neues
+
+### Hilfreiche Links
+- [DOM-Manipulation](https://wiki.selfhtml.org/wiki/JavaScript/DOM#DOM-Manipulation)
+- [Template Strings](https://wiki.selfhtml.org/wiki/JavaScript/Objekte/String/template-literal)
+- [JavaScript und CSS](https://wiki.selfhtml.org/wiki/JavaScript/Tutorials/JavaScript_und_CSS)
+
+## Abgabe
+- ⏱️ Montag **13.11.23** um **12:00 Uhr**
+- ⬆️ Upload des Ordners auf deinen **Webspace**
+- ⬆️ Pushe den Ordner in ein **neues Repository auf GitHub**
+- ✉️ **E-Mail** mit den 🔗 Links (Webspace + Github) an **manuel@startmedia.at**

@@ -1,8 +1,8 @@
-# Hausübung
+# Aufgabe
 
 ## Vorbereitung
 
-1. Erstelle einen Ordner `231108_hue`
+1. Erstelle einen Ordner `231108_aufgabe`
 2. Wechsle in den Ordner und erstelle die folgenden Dateien:
 - `index.html`
 - `js/script.js`

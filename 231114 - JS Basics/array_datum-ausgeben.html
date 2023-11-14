@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Datum ausgeben</title>
+</head>
+<body>
+
+  <h1>Datum ausgeben</h1>
+  <main>
+    <p id="date"></p>
+  </main>
+
+<script>
+
+  // Definiere Wochentage in einem Array
+  const wochentage = ['Montag','Dienstag','Mittwoch','Donnerstag','Freitag','Samstag','Sonntag'];
+  
+  // Neues Datumsobjekt ableiten
+  const date = new Date();
+
+  // Hole Tag, Monat, jahr und speichere sie in einer Variable
+  const day = date.getDate();
+  const month = date.getMonth()+1;
+  const year = date.getFullYear();
+
+  // Ermittle den heutigen Wochentag als Zahl
+  const weekday = date.getDay()-1;
+
+  // Datum in <p> einsetzen
+  document.querySelector('#date').textContent = `Heute ist ${wochentage[weekday]}, ${day}.${month}.${year}`;
+
+</script>
+</body>
+</html>

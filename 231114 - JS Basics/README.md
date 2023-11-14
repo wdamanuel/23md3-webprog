@@ -4,7 +4,7 @@
 ### Inhalt
 - Kontrolle Hausübung ✅
 - Übung Arrays und Datum ausgeben ✅
-- Übung "Countdown"
-- Einfühung BEM-Methodik
+- Übung "Countdown" ✅
+- Einfühung BEM-Methodik ✅
 - Übung "Color-Flipper"
 - Hausaufgabe

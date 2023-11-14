@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+}
+
+.card {
+  width: 33vw;
+  background-color: blueviolet;
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: .25rem;
+  overflow: hidden;
+  box-shadow: 0 0 2rem rgba(30, 9, 48, 0.7);
+}
+
+.card__image {
+  width: 100%;
+}
+
+.card__content {
+  padding: 1.5rem;
+}
+
+.card__title {
+  margin-bottom: .5em;
+}
+
+.card__text {
+  margin-bottom: 2rem;
+  line-height: 1.5;
+}
+
+.card__button {
+  width: 100%;
+  padding: .8rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: .25rem;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.card__button:hover {
+  transform: scale(1.03);
+}

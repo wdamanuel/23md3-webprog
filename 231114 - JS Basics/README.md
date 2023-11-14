@@ -6,5 +6,4 @@
 - Übung Arrays und Datum ausgeben ✅
 - Übung "Countdown" ✅
 - Einfühung BEM-Methodik ✅
-- Übung "Color-Flipper"
-- Hausaufgabe
+- Hausaufgabe "Color-Flipper" ✅ 
